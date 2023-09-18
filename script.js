@@ -1,20 +1,22 @@
-// Define an array of user profiles (you can fetch this data from a backend or JSON file)
 const userProfiles = [
     {
         username: 'user1',
         name: 'John Doe',
-        bio: 'Web Developer',
-        imageUrl: 'contributions/user1/profile.jpg', // Update with the actual image path
-        // Add any other profile details you want to display
+        work: 'Web Developer',
+        imageUrl: 'https://randomuser.me/api/portraits/women/56.jpg',
+        skills: [
+            'UI / UX', 'Front End Development', 'HTML', 'CSS', 'JavaScript', 'ReactJS', 'Node'
+        ] ,
     },
     {
-        username: 'user2',
-        name: 'Jane Smith',
-        bio: 'Front-end Developer',
-        imageUrl: 'contributions/user2/profile.jpg', // Update with the actual image path
-        // Add any other profile details you want to display
+        username: 'user1',
+        name: 'John Doe',
+        work: 'Web Developer',
+        imageUrl: 'https://randomuser.me/api/portraits/women/57.jpg', 
+        skills: [
+            'UI / UX', 'Front End Development', 'HTML', 'CSS', 'JavaScript', 'ReactJS', 'Node'
+        ], 
     },
-    // Add more user profiles as needed
 ];
 
 // Function to display user-contributed profile cards
@@ -24,15 +26,31 @@ function displayUserContributions() {
     userProfiles.forEach((profile) => {
         // Create a profile card div
         const card = document.createElement('div');
-        card.classList.add('profile-card');
+        card.classList.add('card-box');
 
         // Create the profile card content
         card.innerHTML = `
-            <img src="${profile.imageUrl}" alt="${profile.name}'s profile picture">
-            <h2>${profile.name}</h2>
-            <p>${profile.bio}</p>
-            <!-- Add more profile details here as needed -->
+            <span class="pro">PRO</span>
+            <img class="round" src="${profile.imageUrl}" alt="user" />
+            <h3>${profile.name}</h3>
+            <h6>New York</h6>
+            <p>${profile.work}</p>
+            <div class="buttons">
+                <button class="primary">
+                    Message
+                </button>
+                <button class="primary ghost">
+                    Hire Me
+                </button>
+            </div>
+            <div class="skills">
+                <h6>Skills</h6>
+                <ul>
+                    ${profile.skills.map((skill) => `<li>${skill}</li>`)}
+                </ul>
+            </div>
         `;
+
 
         // Append the profile card to the container
         cardContainer.appendChild(card);
