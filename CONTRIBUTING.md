@@ -62,7 +62,7 @@ git switch -c add-alonzo-church
 
 ## Make necessary changes and commit those changes
 
-Now open `script.js` file in a text editor, add your data to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
+Now open `script.js` file in a text editor, add your data to it. Don't add it at the beginning or end of the file. Put your data in `userProfiles` in increasing order like user1, user2, user3, .... usern . Now, save the file.
 
 <!-- <img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" /> -->
 
