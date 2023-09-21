@@ -5,28 +5,43 @@ Welcome to the **Students Profile Card Showcase** project! This open-source proj
 ![studentsshowcase](https://github.com/danishzayan/StudentsShowcase/assets/46997504/420a9b87-7675-46f6-876b-2af1facaa451)
 
 
-## Table of Contents
-
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Contributing](#contributing)
-  - [Guidelines](#guidelines)
-  - [Creating Your Profile Card](#creating-your-profile-card)
-- [Displaying User Contributions](#displaying-user-contributions)
-- [Community Engagement](#community-engagement)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
 - Basic knowledge of HTML and CSS.
 - Git installed on your computer.
 - An understanding of how to create a GitHub account and fork repositories.
+
+## Getting Started
+
+- After Cloning **Students Showcase Project.**
+- Open `scripts.js` file in the project.
+- Add your data in the **userProfiles**
+- After change, save the data.
+- Which is given below.
+
+```javascript
+const userProfiles = [
+  {
+    username: "user1",
+    name: "Danish Kamal",
+    course: "MCA",
+    work: "Frotend Developer",
+    imageUrl: "https://randomuser.me/api/portraits/women/56.jpg",
+    skills: [
+      "UI / UX",
+      "Front End Development",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "Node",
+    ],
+  },
+]
+```
+  
 
 ## Contributing 👨‍💻
 
