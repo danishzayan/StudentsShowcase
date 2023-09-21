@@ -52,7 +52,7 @@ const userProfiles = [
 
 ## License 🛡️
 
-YourQuotes-App is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Students Showcase is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Project Admin 😎
 
@@ -68,7 +68,7 @@ YourQuotes-App is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 <br />
 
 ## Project Contributors 🌟
-Thanks a lot for spending your time helping YourQuotes grow. Thanks a lot! Keep rocking 🎉 </p><br />
+Thanks a lot for spending your time helping Students Showcase grow. Thanks a lot! Keep rocking 🎉 </p><br />
 
 <a href="https://github.com/danishzayan/StudentsShowcase/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=danishzayan/StudentsShowcase" />
