@@ -2,7 +2,7 @@
 
 Welcome to the **Students Profile Card Showcase** project! This open-source project allows users to design and showcase their own profile cards using HTML and CSS. It's a fun way to learn web development while sharing your creativity with others.
 
-![studentsshowcase](https://github.com/danishzayan/OpenSourceProject/assets/46997504/420a9b87-7675-46f6-876b-2af1facaa451)
+![studentsshowcase](https://github.com/danishzayan/StudentsShowcase/assets/46997504/420a9b87-7675-46f6-876b-2af1facaa451)
 
 
 ## Table of Contents
@@ -49,14 +49,14 @@ YourQuotes-App is licensed under the MIT License - see the [LICENSE](LICENSE) fi
 
 ## Contributor Over Time ⏳
 
-[![Contributors over time](https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=danishzayan/YourQuotes-App)](https://www.apiseven.com/en/contributor-graph?chart=contributorOverTime&repo=danishzayan/YourQuotes-App)
+[![Contributors over time](https://contributor-graph-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=danishzayan/StudentsShowcase)](https://www.apiseven.com/en/contributor-graph?chart=contributorOverTime&repo=danishzayan/StudentsShowcase)
 <br />
 
 ## Project Contributors 🌟
 Thanks a lot for spending your time helping YourQuotes grow. Thanks a lot! Keep rocking 🎉 </p><br />
 
-<a href="https://github.com/danishzayan/YourQuotes-App/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=danishzayan/YourQuotes-App" />
+<a href="https://github.com/danishzayan/StudentsShowcase/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=danishzayan/StudentsShowcase" />
 </a>
 
 <hr>
