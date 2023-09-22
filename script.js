@@ -15,43 +15,10 @@ const userProfiles = [
       "Node",
     ],
   },
-  {
-    username: "user2",
-    name: "John Doe",
-    course: "MTech",
-    work: "Web Developer",
-    imageUrl: "https://randomuser.me/api/portraits/women/19.jpg",
-    skills: [
-      "UI / UX",
-      "Front End Development",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ReactJS",
-      "Node",
-    ],
-  },
-  {
-    username: "user3",
-    name: "John Doe",
-    course: "BTech",
-    work: "Web Developer",
-    msgURL: "",
-    linkedinURL: "",
-    imageUrl: "https://randomuser.me/api/portraits/women/28.jpg",
-    skills: [
-      "UI / UX",
-      "Front End Development",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ReactJS",
-      "Node",
-    ],
-  },
+  // Add your Data
 ];
 
-// Function to display user-contributed profile cards
+
 function displayUserContributions() {
   const cardContainer = document.getElementById("card-container");
 
@@ -96,5 +63,5 @@ function displayUserContributions() {
   });
 }
 
-// Call the function to display user contributions when the page loads
+// Call the function to display user when the page loads
 window.addEventListener("load", displayUserContributions);
