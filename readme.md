@@ -39,6 +39,8 @@ const userProfiles = [
     name: "Danish Kamal",
     course: "MCA",
     work: "Frotend Developer",
+    msgURL: "",
+    linkedinURL: "",
     imageUrl: "https://randomuser.me/api/portraits/women/56.jpg",
     skills: [
       "UI / UX",
