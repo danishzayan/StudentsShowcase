@@ -13,7 +13,7 @@ Welcome to the **Students Profile Card Showcase** project! This open-source proj
 [![GitHub issues-closed](https://img.shields.io/github/issues-closed/danishzayan/StudentsShowcase.svg)](https://GitHub.com/danishzayan/StudentsShowcase/issues?q=is%3Aissue+is%3Aclosed)
 <a href="https://www.linkedin.com/in/danishzayan/"><img src="https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg" alt="linkedin"></a>
 
-![studentsshowcase](https://github.com/danishzayan/StudentsShowcase/assets/46997504/420a9b87-7675-46f6-876b-2af1facaa451)
+![studentsshowcase](https://github.com/danishzay/StudenShowcase/assets/46997504/420a9b87-7675-46f6-876b-2af1facaa451)
 
 
 ## Prerequisites
