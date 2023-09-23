@@ -1,6 +1,17 @@
+
 # Profile Card Showcase
 
 Welcome to the **Students Profile Card Showcase** project! This open-source project allows users to design and showcase their own profile cards using HTML and CSS. It's a fun way to learn web development while sharing your creativity with others.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0d1f3268-21ae-44c3-acb1-2a48ede9959c/deploy-status)](https://app.netlify.com/sites/studentsshowcase/deploys)
+<a href="https://github.com/danishzayan/StudentsShowcase"><img src="https://visitor-badge.laobi.icu/badge?page_id=danishzayan/StudentsShowcase" alt="Number of Visitors"></a>
+<a href="https://github.com/danishzayan/StudentsShowcase/stargazers"><img src="https://img.shields.io/github/stars/danishzayan/StudentsShowcase" alt="github stars"></a>
+[![GitHub contributors](https://img.shields.io/github/contributors/danishzayan/StudentsShowcase.svg)](https://GitHub.com/danishzayan/StudentsShowcase/graphs/contributors/)
+<a href="https://github.com/danishzayan/StudentsShowcase/network/members"><img src="https://img.shields.io/github/forks/danishzayan/StudentsShowcase" alt="github forks"></a>
+[![GitHub commits](https://badgen.net/github/commits/danishzayan/StudentsShowcase)](https://github.com/danishzayan/StudentsShowcase/commit/)
+[![GitHub issues](https://img.shields.io/github/issues/danishzayan/StudentsShowcase.svg)](https://GitHub.com/danishzayan/StudentsShowcase/issues/)
+[![GitHub issues-closed](https://img.shields.io/github/issues-closed/danishzayan/StudentsShowcase.svg)](https://GitHub.com/danishzayan/StudentsShowcase/issues?q=is%3Aissue+is%3Aclosed)
+<a href="https://www.linkedin.com/in/danishzayan/"><img src="https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg" alt="linkedin"></a>
 
 ![studentsshowcase](https://github.com/danishzayan/StudentsShowcase/assets/46997504/420a9b87-7675-46f6-876b-2af1facaa451)
 
