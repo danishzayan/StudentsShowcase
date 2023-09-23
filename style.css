@@ -148,6 +148,7 @@ button.primary.ghost {
   text-align: left;
   padding: 15px;
   margin-top: 30px;
+  border-top: 1px solid rgb(255 255 255 / 32%);
   border-radius: 12px;
 }
 
