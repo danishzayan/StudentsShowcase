@@ -70,19 +70,19 @@ window.addEventListener("load", displayUserContributions);
 
 
 //funtion for dowload card design for user.
-document.getElementById('capture').addEventListener('click', function () {
-  html2canvas(document.querySelector('.card')).then(canvas => {
+// document.getElementById('capture').addEventListener('click', function () {
+//   html2canvas(document.querySelector('.card')).then(canvas => {
       
-      const imageDataUrl = canvas.toDataURL('image/png');
+//       const imageDataUrl = canvas.toDataURL('image/png');
 
-      const a = document.createElement('a');
-      a.href = imageDataUrl;
-      a.download = 'card.png';
-      a.textContent = 'Download Card';
+//       const a = document.createElement('a');
+//       a.href = imageDataUrl;
+//       a.download = 'card.png';
+//       a.textContent = 'Download Card';
 
-      const result = document.getElementById('result');
-      result.innerHTML = '';
-      result.appendChild(a);
-  });
-});
+//       const result = document.getElementById('result');
+//       result.innerHTML = '';
+//       result.appendChild(a);
+//   });
+// });
 
