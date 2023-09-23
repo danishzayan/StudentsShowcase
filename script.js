@@ -2,6 +2,7 @@ const userProfiles = [
   {
     username: "user1",
     name: "Danish Kamal",
+    city: "Hyderabad"
     course: "MCA",
     work: "Frontend Developer",
     msgURL: "",
@@ -34,7 +35,7 @@ function displayUserContributions() {
             <span class="pro">${profile.course}</span>
             <img class="round" src="${profile.imageUrl}" alt="user" />
             <h3>${profile.name}</h3>
-            <h6>New York</h6>
+            <h6>${profile.city}</h6>
             <p>${profile.work}</p>
             <div class="buttons">
                 <a href="${
