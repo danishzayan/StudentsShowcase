@@ -1,10 +1,12 @@
 const userProfiles = [
   {
     username: "user1",
-    name: "John Doe",
+    name: "Danish Kamal",
     course: "MCA",
     work: "Web Developer",
-    imageUrl: "https://randomuser.me/api/portraits/women/56.jpg",
+    msgURL: "",
+    linkedinURL: "",
+    imageUrl: "https://avatars.githubusercontent.com/u/46997504?s=400&u=07c0ac700535b5afda53b66b6346ca7cdbc2bd6a&v=4",
     skills: [
       "UI / UX",
       "Front End Development",
@@ -65,3 +67,22 @@ function displayUserContributions() {
 
 // Call the function to display user when the page loads
 window.addEventListener("load", displayUserContributions);
+
+
+//funtion for dowload card design for user.
+document.getElementById('capture').addEventListener('click', function () {
+  html2canvas(document.querySelector('.card')).then(canvas => {
+      
+      const imageDataUrl = canvas.toDataURL('image/png');
+
+      const a = document.createElement('a');
+      a.href = imageDataUrl;
+      a.download = 'card.png';
+      a.textContent = 'Download Card';
+
+      const result = document.getElementById('result');
+      result.innerHTML = '';
+      result.appendChild(a);
+  });
+});
+

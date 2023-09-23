@@ -19,6 +19,7 @@ body {
 
 header {
 	width: 100%;
+  height: 3.5rem;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	padding: 0 2rem;
 	display: flex;
@@ -30,14 +31,14 @@ header {
 	z-index: 10;
 
 	backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgb(255 255 255 / 59%);
-    border: 1px solid rgba(209, 213, 219, 0.3);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgb(74 70 70 / 43%);
+  border-bottom: 1px solid rgba(209, 213, 219, 0.3);
 }
 
 header nav a {
     text-decoration: none;
-    color: black;
+    color: #febb0b;
     margin-left: 1rem;
     font-weight: 600;
 }
@@ -55,13 +56,13 @@ header h1 {
   flex-wrap: wrap;
   justify-content: center;
   /* gap: 20px; */
-  padding-top: 6rem;
+  padding-top: 5rem;
   padding-bottom: 2rem;
 }
 
 h3 {
   margin: 10px 0;
-  color: #04060a;
+  color: #e6e9eff0;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -70,17 +71,18 @@ h6 {
   margin: 5px 0;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #625b5b;
+  color: #ebe6e6c4;
+  font-size: 12px;
 }
 
 .skill-heading {
-    color: #000000;
+    color: #febb0b;
     font-size: 13px;
 }
 
 p {
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 15px;
   letter-spacing: 1px;
   color: #febb0b;
   font-weight: 600;
@@ -99,7 +101,7 @@ p {
   text-align: center;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgb(255 255 255 / 43%);
+  background-color: rgb(74 70 70 / 43%);
   border-radius: 12px;
   border: 1px solid rgba(209, 213, 219, 0.3);
 }
@@ -117,7 +119,9 @@ p {
 }
 
 .card-box .round {
-  border: 1px solid #ffffff;
+  width: 9rem;
+  height: auto;
+  border: 2px solid #ffffff4f;
   border-radius: 50%;
   padding: 7px;
 }
