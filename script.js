@@ -3,9 +3,9 @@ const userProfiles = [
     username: "user1",
     name: "Danish Kamal",
     course: "MCA",
-    work: "Web Developer",
+    work: "Frontend Developer",
     msgURL: "",
-    linkedinURL: "",
+    linkedinURL: "https://www.linkedin.com/in/danishzayan",
     imageUrl: "https://avatars.githubusercontent.com/u/46997504?s=400&u=07c0ac700535b5afda53b66b6346ca7cdbc2bd6a&v=4",
     skills: [
       "UI / UX",
