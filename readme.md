@@ -37,6 +37,7 @@ const userProfiles = [
   {
     username: "user1",
     name: "Danish Kamal",
+    city: "Hyderabad",
     course: "MCA",
     work: "Frotend Developer",
     msgURL: "",
