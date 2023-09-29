@@ -168,3 +168,21 @@ button.primary.ghost {
   margin: 0 7px 7px 0;
   padding: 7px;
 }
+
+header nav a:hover {
+  color: #ffffff; 
+}
+
+.fa-github {
+  font-size: 1.2rem; 
+}
+
+.card-box h3, .card-box button.primary {
+  transition: transform 0.3s ease; 
+  margin: 2px;
+}
+
+.card-box h3:hover, .card-box button.primary:hover {
+  transform: scale(1.1); 
+}
+
