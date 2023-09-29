@@ -169,3 +169,10 @@ button.primary.ghost {
   padding: 7px;
 }
 
+header nav a:hover {
+  color: #ffffff; 
+}
+
+.fa-github {
+  font-size: 1.2rem; 
+}
