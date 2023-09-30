@@ -10,10 +10,10 @@ Welcome to the **Students Profile Card Showcase** project! This open-source proj
 <a href="https://github.com/danishzayan/StudentsShowcase/network/members"><img src="https://img.shields.io/github/forks/danishzayan/StudentsShowcase" alt="github forks"></a>
 [![GitHub commits](https://badgen.net/github/commits/danishzayan/StudentsShowcase)](https://github.com/danishzayan/StudentsShowcase/commit/)
 [![GitHub issues](https://img.shields.io/github/issues/danishzayan/StudentsShowcase.svg)](https://GitHub.com/danishzayan/StudentsShowcase/issues/)
-[![GitHub issues-closed](https:A//img.shields.io/github/issues-closed/danishzayan/StudentsShowcase.svg)](https://GitHub.com/danishzayan/StudentsShowcase/issues?q=is%3Aissue+is%3Aclosed)
 <a href="https://www.linkedin.com/in/danishzayan/"><img src="https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg" alt="linkedin"></a>
 
-![studentsshowcase](https://github.com/danishzay/StudenShowcase/assets/46997504/420a9b87-7675-46f6-876b-2af1facaa451)
+![dddddd](https://github.com/danishzayan/StudentsShowcase/assets/46997504/ae5950ff-95c8-4175-8fdc-93e4f5dc3dc7)
+
 
 
 ## Prerequisites
@@ -82,7 +82,7 @@ Students Showcase is licensed under the MIT License - see the [LICENSE](LICENSE)
 <br />
 
 ## Project Contributors 🌟
-Thanks a lot for spending your time helping Students Showcase grow. Thanks a lot! Keep rocking 🎉 </p><br />
+Thanks a lot for spending your time helping Students Showcase grow. Thanks a lot! Keep rocking 🎉 </p>
 
 <a href="https://github.com/danishzayan/StudentsShowcase/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=danishzayan/StudentsShowcase" />
