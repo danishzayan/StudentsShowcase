@@ -122,6 +122,7 @@ p {
 .card-box .round {
   width: 9rem;
   height: auto;
+  margin: 1rem auto;
   border: 2px solid #ffffff4f;
   border-radius: 50%;
   padding: 7px;
@@ -197,7 +198,7 @@ header nav a:hover {
   height: 55px;
   border-radius: 50%;
   text-align: center;
-  line-height: 55px;
+  line-height: 60px;
   cursor: pointer;
   background-color: rgba(255, 0, 0, 0.33);
   box-shadow: 0px 10px 20px -10px red;

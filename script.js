@@ -111,7 +111,7 @@ function checkScroll() {
   if (window.pageYOffset > 200) {
     document.getElementById("scroll-to-top-button").style.display = "block";
   } else {
-    document.getElementById("scroll-to-top-button").style.display = "none";
+    document.getElementById("scroll-to-top-button").style.display = "";
   }
 }
 
