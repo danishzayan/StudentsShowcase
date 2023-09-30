@@ -170,19 +170,39 @@ button.primary.ghost {
 }
 
 header nav a:hover {
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .fa-github {
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
 }
 
-.card-box h3, .card-box button.primary {
-  transition: transform 0.3s ease; 
+.card-box h3,
+.card-box button.primary {
+  transition: transform 0.3s ease;
   margin: 2px;
 }
 
-.card-box h3:hover, .card-box button.primary:hover {
-  transform: scale(1.1); 
+.card-box h3:hover,
+.card-box button.primary:hover {
+  transform: scale(1.1);
 }
 
+#scroll-to-top-button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #948282;
+  color: #ece5e5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+#scroll-to-top-button i {
+  font-size: 24px;
+}
