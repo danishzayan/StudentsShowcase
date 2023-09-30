@@ -193,16 +193,29 @@ header nav a:hover {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #948282;
-  color: #ece5e5;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   text-align: center;
-  line-height: 40px;
+  line-height: 60px;
   cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.33);
+  box-shadow: 0px 10px 20px -10px red;
+  animation: arrowBlink 1.5s infinite;
 }
 
 #scroll-to-top-button i {
   font-size: 24px;
+  color: #febb0b;
+  animation: arrowBlink 1.5s infinite;
+}
+
+@keyframes arrowBlink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
