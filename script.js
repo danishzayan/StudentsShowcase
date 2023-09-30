@@ -39,6 +39,24 @@ const userProfiles = [
       "Node",
     ],
   },
+  {
+    username: "user3",
+    name: "Shaquib Khan",
+    city: "Hyderabad",
+    course: "MCA",
+    work: "Frontend Developer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/shaquibkhan",
+    imageUrl: "https://randomuser.me/api/portraits/men/1.jpg",
+    skills: [
+      "UI",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS Learning",
+      "DSA with Java"
+    ],
+  },
 
   // Add your Data order wise
 ];

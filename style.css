@@ -16,6 +16,7 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 0;
+  user-select: none;
 }
 
 header {
@@ -126,6 +127,13 @@ p {
   border: 2px solid #ffffff4f;
   border-radius: 50%;
   padding: 7px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+  -webkit-touch-callout: none;
 }
 
 button.primary {
@@ -158,16 +166,18 @@ button.primary.ghost {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .skills ul li {
-  border: 1px solid #2d2747;
-  border-radius: 2px;
+  border: 1px solid #ffffff36;
+  border-radius: 50px;
   display: inline-block;
   font-size: 12px;
-  color: #04060a;
+  color: #ffffff;
   margin: 0 7px 7px 0;
-  padding: 7px;
+  padding: 7px 10px;
+  background: #00000030;
 }
 
 header nav a:hover {
