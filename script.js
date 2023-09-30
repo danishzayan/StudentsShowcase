@@ -7,7 +7,8 @@ const userProfiles = [
     work: "Frontend Developer",
     msgURL: "",
     linkedinURL: "https://www.linkedin.com/in/danishzayan",
-    imageUrl: "https://avatars.githubusercontent.com/u/46997504?s=400&u=07c0ac700535b5afda53b66b6346ca7cdbc2bd6a&v=4",
+    imageUrl:
+      "https://avatars.githubusercontent.com/u/46997504?s=400&u=07c0ac700535b5afda53b66b6346ca7cdbc2bd6a&v=4",
     skills: [
       "UI / UX",
       "Front End Development",
@@ -26,7 +27,8 @@ const userProfiles = [
     work: "Frontend Developer",
     msgURL: "",
     linkedinURL: "https://www.linkedin.com/in/shadabdln",
-    imageUrl: "https://avatars.githubusercontent.com/u/140787517?s=400&u=a263e252c9cc353a91c8f17b22deebdcecbe3713&v=4",
+    imageUrl:
+      "https://avatars.githubusercontent.com/u/140787517?s=400&u=a263e252c9cc353a91c8f17b22deebdcecbe3713&v=4",
     skills: [
       "UI / UX",
       "Front End Development",
@@ -37,10 +39,9 @@ const userProfiles = [
       "Node",
     ],
   },
-  
+
   // Add your Data order wise
 ];
-
 
 function displayUserContributions() {
   const cardContainer = document.getElementById("card-container");
@@ -89,11 +90,10 @@ function displayUserContributions() {
 // Call the function to display user when the page loads
 window.addEventListener("load", displayUserContributions);
 
-
 //funtion for dowload card design for user.
 // document.getElementById('capture').addEventListener('click', function () {
 //   html2canvas(document.querySelector('.card')).then(canvas => {
-      
+
 //       const imageDataUrl = canvas.toDataURL('image/png');
 
 //       const a = document.createElement('a');
@@ -107,3 +107,25 @@ window.addEventListener("load", displayUserContributions);
 //   });
 // });
 
+function checkScroll() {
+  if (window.pageYOffset > 200) {
+    document.getElementById("scroll-to-top-button").style.display = "block";
+  } else {
+    document.getElementById("scroll-to-top-button").style.display = "none";
+  }
+}
+
+function scrollToTop() {
+  checkScroll(); // Check the scroll position
+  window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to the top
+}
+
+// Attach the scroll event listener
+window.addEventListener("scroll", checkScroll);
+
+// Attach the click event listener to the button
+let top5 = document.getElementById("scroll-to-top-button");
+console.log(top);
+document
+  .getElementById("scroll-to-top-button")
+  .addEventListener("click", scrollToTop);
