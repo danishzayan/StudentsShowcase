@@ -57,6 +57,25 @@ const userProfiles = [
       "DSA with Java",
     ],
   },
+  {
+    username: "user4",
+    name: "Arnab Ghosh",
+    city: "kolkata",
+    course: "BCA",
+    work: "React Developer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/arnab-ghosh-7678b7282/",
+    imageUrl:
+      "https://avatars.githubusercontent.com/u/113178195?v=4",
+    skills: [
+      "FuLL Stack Web Developer",
+      "ReactJS",
+      "MongoDB",
+      "NodeJS",
+      "ExpressJS",
+    ],
+  },
+
 
   // Add your Data order wise
 ];
