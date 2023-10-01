@@ -1,94 +1,13 @@
-const userProfiles = [
-  {
-    username: "user1",
-    name: "Danish Kamal",
-    city: "Hyderabad",
-    course: "MCA",
-    work: "Frontend Developer",
-    msgURL: "",
-    linkedinURL: "https://www.linkedin.com/in/danishzayan",
-    imageUrl:
-      "https://avatars.githubusercontent.com/u/46997504?s=400&u=07c0ac700535b5afda53b66b6346ca7cdbc2bd6a&v=4",
-    skills: [
-      "UI / UX",
-      "Front End Development",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ReactJS",
-      "Node",
-    ],
-  },
-  {
-    username: "user2",
-    name: "Shadab Ansari",
-    city: "Hyderabad",
-    course: "MCA",
-    work: "Frontend Developer",
-    msgURL: "",
-    linkedinURL: "https://www.linkedin.com/in/shadabdln",
-    imageUrl:
-      "https://avatars.githubusercontent.com/u/140787517?s=400&u=a263e252c9cc353a91c8f17b22deebdcecbe3713&v=4",
-    skills: [
-      "UI / UX",
-      "Front End Development",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ReactJS",
-      "Node",
-    ],
-  },
-  {
-    username: "user3",
-    name: "Shaquib Khan",
-    city: "Hyderabad",
-    course: "MCA",
-    work: "Frontend Developer",
-    msgURL: "",
-    linkedinURL: "https://www.linkedin.com/in/shaquibkhan",
-    imageUrl: "https://randomuser.me/api/portraits/men/1.jpg",
-    skills: [
-      "UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ReactJS Learning",
-      "DSA with Java"
-    ],
-  },
-  {
-    username: "user4",
-    name: "Arnab Ghosh",
-    city: "kolkata",
-    course: "BCA",
-    work: "React Developer",
-    msgURL: "",
-    linkedinURL: "https://www.linkedin.com/in/arnab-ghosh-7678b7282/",
-    imageUrl:
-      "https://avatars.githubusercontent.com/u/113178195?v=4",
-    skills: [
-      "FuLL Stack Web Developer",
-      "ReactJS",
-      "MongoDB",
-      "NodeJS",
-      "ExpressJS",
-    ],
-  },
-
-  // Add your Data order wise
-];
-
 function displayUserContributions() {
-  const cardContainer = document.getElementById("card-container");
+    const cardContainer = document.getElementById("card-container");
 
-  userProfiles.forEach((profile) => {
-    // Create a profile card div
-    const card = document.createElement("div");
-    card.classList.add("card-box");
+    userProfiles.forEach((profile) => {
+                // Create a profile card div
+                const card = document.createElement("div");
+                card.classList.add("card-box");
 
-    // Create the profile card content
-    card.innerHTML = `
+                // Create the profile card content
+                card.innerHTML = `
             <span class="pro">${profile.course}</span>
             <img class="round" src="${profile.imageUrl}" alt="user" />
             <h3>${profile.name}</h3>
