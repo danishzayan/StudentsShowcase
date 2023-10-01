@@ -111,7 +111,31 @@ const userProfiles = [
       "Python",
     ],
   },
-
+  {
+    username: "user7",
+    name: "Tanya Gupta",
+    city: "Chandigarh",
+    course: "Btech-cse",
+    work: "Fullstack Developer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/tanya-gupta-875b13228/",
+    imageUrl: "https://randomuser.me/api/portraits/women/56.jpg",
+    skills: [
+      "UI / UX",
+      "Front End Development",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "Node",
+      "MongoDB",
+      "Express",
+      "Flask",
+      "Firebase",
+      "Digital Ocean",
+      "Docker",
+    ],
+  },
   // Add your Data order wise
 ];
 
