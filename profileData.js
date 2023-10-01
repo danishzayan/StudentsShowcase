@@ -94,6 +94,23 @@ const userProfiles = [
     ],
   },
 
+  {
+    username: "user5",
+    name: "Virej Dasani",
+    city: "mumbai",
+    course: "Computer Science",
+    work: "YouTuber",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/virej-dasani-b64470209/",
+    imageUrl: "https://avatars.githubusercontent.com/u/67495678?v=4",
+    skills: [
+      "Unity",
+      "ReactJS",
+      "JavaScript",
+      "NodeJS",
+      "Python",
+    ],
+  },
 
   // Add your Data order wise
 ];
