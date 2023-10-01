@@ -75,6 +75,24 @@ const userProfiles = [
       "ExpressJS",
     ],
   },
+  {
+    username: "user5",
+    name: "Gurnav Chaudhary",
+    city: "Uttar Pradesh",
+    course: "BCA",
+    work: "Frontend Developer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/gurnav-chaudhary-55310a1a1/",
+    imageUrl:
+      "https://avatars.githubusercontent.com/u/72142482?v=4",
+    skills: [
+      "UI",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS Learning",
+    ],
+  },
 
 
   // Add your Data order wise
