@@ -27,7 +27,7 @@ Before you begin, ensure you have met the following requirements:
 ## Getting Started
 
 - After Cloning **Students Showcase Project.**
-- Open `scripts.js` file in the project.
+- Open `profileData.js` file in the project.
 - Add your data in the **userProfiles**
 - After change, save the data.
 - Which is given below.
