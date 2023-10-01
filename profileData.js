@@ -65,7 +65,8 @@ const userProfiles = [
     work: "React Developer",
     msgURL: "",
     linkedinURL: "https://www.linkedin.com/in/arnab-ghosh-7678b7282/",
-    imageUrl: "https://avatars.githubusercontent.com/u/113178195?v=4",
+    imageUrl:
+      "https://avatars.githubusercontent.com/u/113178195?v=4",
     skills: [
       "FuLL Stack Web Developer",
       "ReactJS",
@@ -74,6 +75,7 @@ const userProfiles = [
       "ExpressJS",
     ],
   },
+
   {
     username: "user5",
     name: "Virej Dasani",
