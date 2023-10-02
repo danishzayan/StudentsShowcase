@@ -156,8 +156,30 @@ const userProfiles = [
         "MongoDB",
       ],
     },
-  ];
+    {
+      username: "user9",
+      name: "Sree Vyshnavi",
+      city: "",
+      course: "BTech",
+      work: "Fullstack Developer",
+      msgURL: "sreevysh2002@gmail.com",
+      linkedinURL: "https://www.linkedin.com/in/sree-vyshnavi/",
+      imageUrl: "https://freesvg.org/img/1519402404.png",
+      skills: [
+        "Python",
+        "C++",
+        "MySQL",
+        "PHP",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "NodeJS",
+        "ReactJS",
+      ],
+    },
+  
   // Add your Data order wise
+  ];
 
 
 export default userProfiles;
