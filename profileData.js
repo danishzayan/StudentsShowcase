@@ -165,6 +165,30 @@ const userProfiles = [
         "MongoDB",
       ],
     },
+
+  {
+    username: "user10",
+    name: "Harash Parihar",
+    city: "Jammu",
+    course: "MCA",
+    work: "Web3 Developer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/harash-parihar-874785225",
+    imageUrl: "https://avatars.githubusercontent.com/u/73985710?v=4",
+    skills: [
+      "Front End Development",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "React-Native",
+      "NextJs",
+      "Python",
+      "C++",
+      "Solidity",
+      "Rust",
+    ],
+  },
   ];
 
   // Add your Data order wise
