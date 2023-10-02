@@ -65,8 +65,7 @@ const userProfiles = [
     work: "React Developer",
     msgURL: "",
     linkedinURL: "https://www.linkedin.com/in/arnab-ghosh-7678b7282/",
-    imageUrl:
-      "https://avatars.githubusercontent.com/u/113178195?v=4",
+    imageUrl: "https://avatars.githubusercontent.com/u/113178195?v=4",
     skills: [
       "FuLL Stack Web Developer",
       "ReactJS",
@@ -83,15 +82,8 @@ const userProfiles = [
     work: "Frontend Developer",
     msgURL: "",
     linkedinURL: "https://www.linkedin.com/in/gurnav-chaudhary-55310a1a1/",
-    imageUrl:
-      "https://avatars.githubusercontent.com/u/72142482?v=4",
-    skills: [
-      "UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ReactJS Learning",
-    ],
+    imageUrl: "https://avatars.githubusercontent.com/u/72142482?v=4",
+    skills: ["UI", "HTML", "CSS", "JavaScript", "ReactJS Learning"],
   },
 
   {
@@ -103,13 +95,7 @@ const userProfiles = [
     msgURL: "",
     linkedinURL: "https://www.linkedin.com/in/virej-dasani-b64470209/",
     imageUrl: "https://avatars.githubusercontent.com/u/67495678?v=4",
-    skills: [
-      "Unity",
-      "ReactJS",
-      "JavaScript",
-      "NodeJS",
-      "Python",
-    ],
+    skills: ["Unity", "ReactJS", "JavaScript", "NodeJS", "Python"],
   },
   {
     username: "user7",
@@ -134,6 +120,27 @@ const userProfiles = [
       "Firebase",
       "Digital Ocean",
       "Docker",
+    ],
+  },
+  {
+    username: "user8",
+    name: "Sree Vyshnavi",
+    city: "",
+    course: "BTech",
+    work: "Fullstack Developer",
+    msgURL: "sreevysh2002@gmail.com",
+    linkedinURL: "https://www.linkedin.com/in/sree-vyshnavi/",
+    imageUrl: "https://freesvg.org/img/1519402404.png",
+    skills: [
+      "Python",
+      "C++",
+      "MySQL",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "NodeJS",
+      "ReactJS",
     ],
   },
   // Add your Data order wise
