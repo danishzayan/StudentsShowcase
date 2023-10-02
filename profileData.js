@@ -136,7 +136,28 @@ const userProfiles = [
       "Docker",
     ],
   },
+    {
+      username: "user8",
+      name: "Sanika Kadam",
+      city: "Mumbai",
+      course: "BSC-IT",
+      work: "Frotend Developer",
+      msgURL: "",
+      linkedinURL: "https://www.linkedin.com/in/sanika-kadam-a4600b22b/",
+      imageUrl: "https://avatars.githubusercontent.com/u/96229011?v=4",
+      skills: [
+        "UI / UX",
+        "Front End Development",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ReactJS",
+        "Node",
+        "MongoDB",
+      ],
+    },
+  ];
   // Add your Data order wise
-];
+
 
 export default userProfiles;
