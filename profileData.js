@@ -191,6 +191,24 @@ const userProfiles = [
   },
   {
     username: "user11",
+    name: "Reajul Haque",
+    city: "Dhaka",
+    course: "MCA",
+    work: "Backend Developer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/reayz",
+    imageUrl: "https://avatars.githubusercontent.com/u/21260946?v=4",
+    skills: [
+      "Back End Development",
+      "C#",
+      ".Net",
+      "EF",
+      "Dapper",
+      "MS SQL",
+    ],
+  },
+  {
+    username: "user11",
     name: "Vinay Sharma",
     city: "Mumbai",
     course: "BSC-IT",
@@ -204,18 +222,12 @@ const userProfiles = [
       "CSS",
       "JavaScript",
       "ReactJS",
-      "MYSQL",
-    
-      
+      "MYSQL", 
       "Python",
-     
-      
-     
     ],
-  },
-  ];
+  }
+]
 
   // Add your Data order wise
-
 
 export default userProfiles;
