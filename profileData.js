@@ -225,9 +225,32 @@ const userProfiles = [
       "MYSQL", 
       "Python",
     ],
-  }
+  },
+  {
+    username: "user13",
+    name: "Shafaque Jamal Ansari",
+    city: "Lucknow",
+    course: "Btech",
+    work: "Frontend Developer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/shafaque-jamal-114743257?trk=contact-info",
+    imageUrl:
+      "https://avatars.githubusercontent.com/u/146312677?v=4",
+    skills: [
+      "Front End Development",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "C",
+      "C++",
+      "ReactJS",
+      "Node",
+    ],
+  },
+
 ]
 
   // Add your Data order wise
+
 
 export default userProfiles;
