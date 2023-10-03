@@ -206,8 +206,27 @@ const userProfiles = [
       "Dapper",
       "MS SQL",
     ],
+  },
+  {
+    username: "user11",
+    name: "Vinay Sharma",
+    city: "Mumbai",
+    course: "BSC-IT",
+    work: "Frotend Developer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/vinay-sharma-a76357261/",
+    imageUrl: "https://avatars.githubusercontent.com/u/120549574?s=400&u=7c56b0e54efd9a0fa9df8014cc45b26d553aaa93&v=4",
+    skills: [
+      "Front End Development",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "MYSQL", 
+      "Python",
+    ],
   }
-];
+]
 
   // Add your Data order wise
 
