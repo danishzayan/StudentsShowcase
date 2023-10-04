@@ -263,6 +263,25 @@ const userProfiles = [
       "TailwindCSS",
     ],
   },
+  {
+    username: "user15",
+    name: "vczoika",
+    city: "Sao Paulo",
+    course: "CC",
+    work: "Backend Developer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/vini-sales",
+    imageUrl: "https://avatars.githubusercontent.com/u/26311011?v=4",
+    skills: [
+      "Front End Development",
+      "C",
+      "Java",
+      "Rust",
+      "SQL and NoSQL",
+      "OS",
+    ],
+  }
+
 
   // Add your Data order wise
 ];
