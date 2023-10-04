@@ -243,6 +243,24 @@ const userProfiles = [
   },
   {
     username: "user14",
+    name: "Narisara Limpisirisant",
+    city: "Bangkok",
+    course: "KMUTT-SIT",
+    work: "Data Engineer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/narisara01509/",
+    imageUrl:
+      "https://scontent.fbkk5-3.fna.fbcdn.net/v/t39.30808-6/346975611_761965482251979_2698396315890320504_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeH3vlNkgVjpXi3IK79E5VGP6CLE6ZJpCFToIsTpkmkIVOeNxnm_F_D_6h-cSRo_34zH9ydb0sYkjVRMJh47rqU7&_nc_ohc=waea-Lhy868AX9fm1fx&_nc_oc=AQn5q0xcsbu9Y1cyZSMbHPL3IX5N1AJ9OfwcC-ZROAcPIDq5TIb86ypquLdn-d8qJpYociCoEHFu76krcPhxnwyA&_nc_ht=scontent.fbkk5-3.fna&_nc_e2o=s&oh=00_AfBqCTmBKI8jfEw0XV1jrwClftvq-LO_woFp-64lyG3BTA&oe=6521BB18",
+    skills: [
+      "Python",
+      "SQL",
+      "Data Engineering",
+      "AI",
+      "ML", 
+    ],
+  },
+  {
+    username: "user15",
     name: "Ahnaf Hasan Shifat",
     city: "Chittagong",
     course: "BSc",
@@ -264,7 +282,7 @@ const userProfiles = [
     ],
   },
   {
-    username: "user15",
+    username: "user16",
     name: "vczoika",
     city: "Sao Paulo",
     course: "CC",
@@ -280,9 +298,8 @@ const userProfiles = [
       "SQL and NoSQL",
       "OS",
     ],
-  }
-
-
+  },
+  
   // Add your Data order wise
 ];
 
