@@ -123,7 +123,7 @@ const userProfiles = [
     ],
   },
 
-{
+  {
     username: "user8",
     name: "Sree Vyshnavi",
     city: "",
@@ -145,26 +145,26 @@ const userProfiles = [
     ],
   },
 
-    {
-      username: "user9",
-      name: "Sanika Kadam",
-      city: "Mumbai",
-      course: "BSC-IT",
-      work: "Frotend Developer",
-      msgURL: "",
-      linkedinURL: "https://www.linkedin.com/in/sanika-kadam-a4600b22b/",
-      imageUrl: "https://avatars.githubusercontent.com/u/96229011?v=4",
-      skills: [
-        "UI / UX",
-        "Front End Development",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "ReactJS",
-        "Node",
-        "MongoDB",
-      ],
-    },
+  {
+    username: "user9",
+    name: "Sanika Kadam",
+    city: "Mumbai",
+    course: "BSC-IT",
+    work: "Frotend Developer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/sanika-kadam-a4600b22b/",
+    imageUrl: "https://avatars.githubusercontent.com/u/96229011?v=4",
+    skills: [
+      "UI / UX",
+      "Front End Development",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "Node",
+      "MongoDB",
+    ],
+  },
 
   {
     username: "user10",
@@ -198,14 +198,7 @@ const userProfiles = [
     msgURL: "",
     linkedinURL: "https://www.linkedin.com/in/reayz",
     imageUrl: "https://avatars.githubusercontent.com/u/21260946?v=4",
-    skills: [
-      "Back End Development",
-      "C#",
-      ".Net",
-      "EF",
-      "Dapper",
-      "MS SQL",
-    ],
+    skills: ["Back End Development", "C#", ".Net", "EF", "Dapper", "MS SQL"],
   },
   {
     username: "user12",
@@ -215,14 +208,15 @@ const userProfiles = [
     work: "Frotend Developer",
     msgURL: "",
     linkedinURL: "https://www.linkedin.com/in/vinay-sharma-a76357261/",
-    imageUrl: "https://avatars.githubusercontent.com/u/120549574?s=400&u=7c56b0e54efd9a0fa9df8014cc45b26d553aaa93&v=4",
+    imageUrl:
+      "https://avatars.githubusercontent.com/u/120549574?s=400&u=7c56b0e54efd9a0fa9df8014cc45b26d553aaa93&v=4",
     skills: [
       "Front End Development",
       "HTML",
       "CSS",
       "JavaScript",
       "ReactJS",
-      "MYSQL", 
+      "MYSQL",
       "Python",
     ],
   },
@@ -233,9 +227,9 @@ const userProfiles = [
     course: "Btech",
     work: "Frontend Developer",
     msgURL: "",
-    linkedinURL: "https://www.linkedin.com/in/shafaque-jamal-114743257?trk=contact-info",
-    imageUrl:
-      "https://avatars.githubusercontent.com/u/146312677?v=4",
+    linkedinURL:
+      "https://www.linkedin.com/in/shafaque-jamal-114743257?trk=contact-info",
+    imageUrl: "https://avatars.githubusercontent.com/u/146312677?v=4",
     skills: [
       "Front End Development",
       "HTML",
@@ -246,7 +240,8 @@ const userProfiles = [
       "Node",
       "ReactJS",
     ],
-  },{
+  },
+  {
     username: "user14",
     name: "Narisara Limpisirisant",
     city: "Bangkok",
@@ -263,12 +258,49 @@ const userProfiles = [
       "AI",
       "ML", 
     ],
-  }
+  },
+  {
+    username: "user15",
+    name: "Ahnaf Hasan Shifat",
+    city: "Chittagong",
+    course: "BSc",
+    work: "Frontend Developer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/ahnafhasan144",
+    imageUrl: "https://avatars.githubusercontent.com/u/81911439?v=4",
+    skills: [
+      "Front End Development",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "C",
+      "C++",
+      "NodeJS",
+      "ReactJS",
+      "Postgresql",
+      "TailwindCSS",
+    ],
+  },
+  {
+    username: "user16",
+    name: "vczoika",
+    city: "Sao Paulo",
+    course: "CC",
+    work: "Backend Developer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/vini-sales",
+    imageUrl: "https://avatars.githubusercontent.com/u/26311011?v=4",
+    skills: [
+      "Front End Development",
+      "C",
+      "Java",
+      "Rust",
+      "SQL and NoSQL",
+      "OS",
+    ],
+  },
   
-
-]
-
   // Add your Data order wise
-
+];
 
 export default userProfiles;
