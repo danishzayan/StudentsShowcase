@@ -263,8 +263,8 @@ const userProfiles = [
       "TailwindCSS",
     ],
   },
-];
 
-// Add your Data order wise
+  // Add your Data order wise
+];
 
 export default userProfiles;
