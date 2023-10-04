@@ -19,16 +19,14 @@ function displayUserContributions() {
       <h6>${profile.city}</h6>
       <p>${profile.work}</p>
       <div class="buttons">
-      <a href="mailto:${
-        profile.msgURL
-      }" target="_blank" rel="noopener noreferrer">
+      <a href="mailto:${profile.msgURL
+        }" target="_blank" rel="noopener noreferrer">
       <button class="primary">
       Message
       </button>
       </a>
-      <a href="${
-        profile.linkedinURL
-      }" target="_blank" rel="noopener noreferrer">
+      <a href="${profile.linkedinURL
+        }" target="_blank" rel="noopener noreferrer">
                    <button class="primary ghost">
                    Hire Me
                    </button>
@@ -50,9 +48,8 @@ function displayUserContributions() {
       <p>${profile.work}</p>
       <div class="buttons">
       
-      <a href="${
-        profile.linkedinURL
-      }" target="_blank" rel="noopener noreferrer">
+      <a href="${profile.linkedinURL
+        }" target="_blank" rel="noopener noreferrer">
                    <button class="primary ghost">
                    Hire Me
                    </button>
