@@ -82,7 +82,7 @@ Students Showcase is licensed under the MIT License - see the [LICENSE](LICENSE)
 <br />
 
 ## Project Contributors 🌟
-Thanks a lot for spending your time helping Students Showcase grow. Thanks a lot! Keep rocking 🎉 </p>
+Thanks a lot for spending your time helping Students Showcase grow. Thanks a lot!</p>
 <a href="https://github.com/danishzayan/StudentsShowcase/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=danishzayan/StudentsShowcase" />
 </a>
