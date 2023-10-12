@@ -299,6 +299,31 @@ const userProfiles = [
       "OS",
     ],
   },
+  {
+    username: "user17",
+    name: "Hrisikesh Roy",
+    city: "Dhaka",
+    course: "BSc",
+    work: "Backend Developer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/hijal/",
+    imageUrl: "https://avatars.githubusercontent.com/u/21256564?v=4",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "C",
+      "C++",
+      "NodeJS",
+      "ExpressJS",
+      "Restify",
+      "ReactJS",
+      "Vuejs",
+      "PostgreSQL",
+      "MySQL",
+      "Docker"
+    ],
+  }
   
   // Add your Data order wise
 ];
