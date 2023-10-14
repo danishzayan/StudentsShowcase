@@ -230,3 +230,54 @@ header nav a:hover {
     opacity: 0;
   }
 }
+.center {
+  border: 5px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+/* Add your desktop styles here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Add your responsive styles here */
+
+/* ... (your existing styles) ... */
+
+/* Position the search container horizontally and stack elements vertically */
+@media (max-width: 768px) {
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px; /* Adjust the margin as needed */
+}
+
+/* Style the search button as needed */
+.search-icon {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Ensure that the input box is hidden by default */
+.hidden {
+  display: none;
+}}
+@media (min-width: 768px) {
+  .search-icon {
+      display: inline;
+  }
+  .search-icon {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+ 
+}
