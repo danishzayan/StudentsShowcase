@@ -191,14 +191,14 @@ const userProfiles = [
   },
   {
     username: "user11",
-    name: "Reajul Haque",
+    name: "Reajul Haque Reayz",
     city: "Dhaka",
-    course: "MCA",
-    work: "Backend Developer",
-    msgURL: "",
+    course: "BSC",
+    work: "Fullstack Developer",
+    msgURL: "reayz77@yahoo.com",
     linkedinURL: "https://www.linkedin.com/in/reayz",
     imageUrl: "https://avatars.githubusercontent.com/u/21260946?v=4",
-    skills: ["Back End Development", "C#", ".Net", "EF", "Dapper", "MS SQL"],
+    skills: ["C#", ".Net", "Entity Framework", "Dapper", "MS SQL", "HTML", "CSS", "JS"],
   },
   {
     username: "user12",
@@ -299,6 +299,31 @@ const userProfiles = [
       "OS",
     ],
   },
+  {
+    username: "user17",
+    name: "Hrisikesh Roy",
+    city: "Dhaka",
+    course: "BSc",
+    work: "Backend Developer",
+    msgURL: "",
+    linkedinURL: "https://www.linkedin.com/in/hijal/",
+    imageUrl: "https://avatars.githubusercontent.com/u/21256564?v=4",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "C",
+      "C++",
+      "NodeJS",
+      "ExpressJS",
+      "Restify",
+      "ReactJS",
+      "Vuejs",
+      "PostgreSQL",
+      "MySQL",
+      "Docker"
+    ],
+  }
   
   // Add your Data order wise
 ];
