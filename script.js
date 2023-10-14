@@ -38,7 +38,7 @@ function displayUserContributions() {
                    <div class="skills">
                    <h6 class="skill-heading">Skills</h6>
                    <ul>
-                   ${profile.skills.map((skill) => `<li>${skill}</li>`)}
+                   ${profile.skills.map((skill) => `<li>${skill}</li>`).join('')}
                    </ul>
                    </div>
                    `;
@@ -61,7 +61,7 @@ function displayUserContributions() {
                    <div class="skills">
                    <h6 class="skill-heading">Skills</h6>
                    <ul>
-                   ${profile.skills.map((skill) => `<li>${skill}</li>`)}
+                   ${profile.skills.map((skill) => `<li>${skill}</li>`).join('')}
                    </ul>
                    </div>
                    `;
