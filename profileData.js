@@ -323,7 +323,31 @@ const userProfiles = [
       "MySQL",
       "Docker"
     ],
-  }
+  },
+  {
+    username: "user18",
+    name: "Mahendra Kumar",
+    city: "Jaipur",
+    course: "MCA",
+    work: "Fullstack Developer",
+    msgURL: "solankirakesh895@gmail.com",
+    linkedinURL: "https://www.linkedin.com/in/mahendrakumar99/",
+    imageUrl:
+      "https://shorturl.at/dyR15",
+    skills: [
+      "Frontend",
+      "Backend",
+      "Database",
+      "Javascript",
+      "React",
+      "NodeJs",
+      "ExpressJS",
+      "MongoDB",
+      "Tailwind",
+      "Sass",
+      "Java"
+    ],
+  },
   
   // Add your Data order wise
 ];
