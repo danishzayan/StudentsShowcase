@@ -8,27 +8,42 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>👨‍🎓 Showcase</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-      <h1>👨‍🎓 Students</h1>
+      <h1>👨‍🎓 Students</h1><div class="search-icon" ><button onclick="toggleSearchBox()">&#128269; </button></div><br>
+      <input type="text" id="search-box" placeholder="Search" class="hidden">
+  </div>
       <nav>
+        <div class="navbar">
         <a href="https://github.com/danishzayan/OpenSourceProject">
           <i class="fa fa-github fa-lg"></i> GitHub
         </a>
         <!-- <a href="https://www.linkedin.com/in/danishzayan">About</a> -->
         <!-- <a href="http://">Team</a> -->
+        
       </nav>
     </header>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-12 justify-contents-center mx-auto ">
+      
+    
+    
     <main>
       <section id="card-container">
         <a href="http://" target="_blank" rel="noopener noreferrer"></a>
       </section>
     </main>
-    <div id="scroll-to-top-button" onclick="scrollToTop()">
-      <i class="fa fa-chevron-up"></i>
-    </div>
-    <script type="module" src="script.js"></script>
+ <script> function toggleSearchBox() {
+  const searchBox = document.getElementById("search-box");
+  searchBox.classList.toggle("hidden");}</script>
+    <script type="module" src="script.js">
+    
+  
+</script>
   </body>
 </html>

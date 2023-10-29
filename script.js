@@ -1,5 +1,8 @@
 import userProfiles from "./profileData.js";
-
+function toggleSearchBox() {
+  const searchBox = document.getElementById("search-box");
+  searchBox.classList.toggle("hidden");
+}
 function displayUserContributions() {
   const cardContainer = document.getElementById("card-container");
 
@@ -93,3 +96,4 @@ console.log(top);
 document
   .getElementById("scroll-to-top-button")
   .addEventListener("click", scrollToTop);
+
