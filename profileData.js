@@ -348,7 +348,30 @@ const userProfiles = [
       "Java"
     ],
   },
-  
+  {
+    username: "user19",
+    name: "Mohammad Mursaleen",
+    city: "Mau",
+    course: "MCA",
+    work: "Fullstack Developer",
+    msgURL: "mmursaleenstb18@gmail.com",
+    linkedinURL: "https://www.linkedin.com/in/mohammad-mursaleen-9b8223228/",
+    imageUrl:
+      "https://media.licdn.com/dms/image/v2/D5603AQE9RKqFEyq0fA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1706026745948?e=1729123200&v=beta&t=etoEhsbLEMd7_kSi7c1vGgPIn0TsEqtFZqk5PuefqFM",
+    skills: [
+      "Frontend",
+      "Backend",
+      "Database",
+      "Javascript",
+      "React",
+      "NodeJs",
+      "ExpressJS",
+      "MongoDB",
+      "Tailwind",
+      "Sass",
+      "Java"
+    ],
+  },
   // Add your Data order wise
 ];
 
